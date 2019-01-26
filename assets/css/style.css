@@ -41,6 +41,14 @@
   padding: 10px 0 10px 0;
 }
 
+#DavidButton {
+  margin: auto;
+}
+
+.background {
+  background-color: black;
+}
+
 
 /*
   These rules take effect when the browser's width
