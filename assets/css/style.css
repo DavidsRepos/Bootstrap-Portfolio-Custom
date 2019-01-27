@@ -2,6 +2,9 @@
   Custom CSS Styles
 */
 
+html {
+  scroll-behavior: smooth;
+}
 .border-mobile {
   border-right: 1px solid #ccc;
 }
@@ -25,11 +28,11 @@
   height: 800px;
 }
 
-.htmlimage img{
+.htmlimage {
   height: 555px;
 }
 
-.htmlimage h3 {
+.portfolioimage {
   position: absolute;
   top: 70%;
   left: 50%;
@@ -39,6 +42,8 @@
   width: 100%;
   text-align: center;
   padding: 10px 0 10px 0;
+  height: 110px;
+  font-family: 'Righteous', cursive;
 }
 
 #DavidButton {
@@ -48,6 +53,84 @@
 .background {
   background-color: black;
 }
+
+.icon {
+  height: 70px;
+  position: absolute;
+  top: 350px;
+  left: 475px;
+  z-index: 1;
+  /* width: 20px; */
+}
+
+.icontextshow {
+  position: absolute;
+  text-align: center;
+  top: 420px;
+  left: 35px;
+  color: #fff;
+}
+
+.iconguitar {
+  height: 70px;
+  position: absolute;
+  top: 350px;
+  left: 40px;
+  z-index: 1;
+}
+
+.icontextshowrepo {
+  position: absolute;
+  text-align: center;
+  top: 420px;
+  left: 485px;
+  color: #fff;
+}
+
+.righteous {
+  font-family: 'Righteous', cursive;
+}
+
+.navblack {
+  background-color: #1B1A28;
+}
+
+.navwhite {
+  background-color: #F2F2F2;
+}
+
+.bkgimage {
+  background: url("../images/backgroundorange.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: black;
+  position: relative;
+}
+
+.inletimage {
+  background: url("../images/dust_scratches.png");
+}
+
+.credit {
+  font-size: 10px;
+}
+
+.sticky-footer {
+ 
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center; 
+  z-index: 8;
+}
+
+.desc-text {
+  vertical-align: middle;
+}
+
 
 
 /*
