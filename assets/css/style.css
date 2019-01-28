@@ -182,9 +182,14 @@ Up Button for Mobile scrolling
   color: #fff;
   top: 400px;
   margin: auto;
+  text-align: right;
   padding: 20px;
   border: 1px solid #888;
   width: 40%;
+}
+
+.modal-content p {
+  text-align: center;
 }
 
 /* The Close Button */

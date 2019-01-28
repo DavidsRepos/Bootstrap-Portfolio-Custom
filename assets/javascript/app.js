@@ -49,20 +49,9 @@ var config = {
         // console.log(contactSav);
         
             database.ref().push(contactSav);
-    
+            $("form")[0].reset();
         });
 
-
-    //Modal for successfull submission
-
-    // var modal = $("#modal");
-    // console.log(modal);
-
-    // var btnmodal = ("#myBtn");
-    // console.log(btnmodal);
-
-    // var span = $(".close")[0];
-    // console.log(span);
 
     $("#myBtn").on("click", function() {
       $("#modal").css("display", "block");
