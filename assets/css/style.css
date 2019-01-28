@@ -131,6 +131,76 @@ html {
   vertical-align: middle;
 }
 
+/* 
+Up Button for Mobile scrolling 
+*/
+
+#upBtn {
+  display: inline-block;
+  background-color: whitesmoke;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  vertical-align: middle;
+  position: fixed;
+  bottom: 49px;
+  right: 30px;
+  transition: background-color .3s,
+  opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  border-radius: 50%;
+  border: 1px solid whitesmoke;
+}
+
+#upBtn::after {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: whitesmoke;
+}
+
+#upBtn:hover {
+  cursor: pointer;
+  background-color: gold;
+}
+
+#upBtn:active {
+  background-color: gold;
+}
+
+#upBtn.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #a3303a;
+  color: #fff;
+  top: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 
 /*

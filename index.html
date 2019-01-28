@@ -3,15 +3,24 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>David's Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
 
+        <!-- jQuery link -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Firebasejs link-->
+        <script src="https://www.gstatic.com/firebasejs/5.7.3/firebase.js"></script>
+        <!--Momentjs link-->
+        <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 
+</head>
 <body>
     <section class="background navblack sticky-top">
 
@@ -30,7 +39,7 @@
                         <a class="nav-link text-right text-white righteous" href="#">About <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-right text-white righteous" href="#portfolio">Portfolio</a>
+                        <a class="nav-link text-right text-white righteous" href="#port-scroll">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-right text-white righteous" href="#contact">Contact</a>
@@ -88,7 +97,7 @@
 
     </section>
 
-    <section class="container-fluid navwhite">
+    <section class="container-fluid navwhite" id="port-scroll">
 
         <div class="container">
 
@@ -105,7 +114,7 @@
                 <div class="col-md-6 p-0 mt-4 pl-2 pr-2 col-adjust">
 
                     <a>
-                        <!-- <a href="https://davidsrepos.github.io/Wheres_My_Music/" target="_blank"> -->
+                       
                         <img class="img-fluid image-mobile htmlimage" src="assets/images/Music2.png" alt="Music-site" height="auto" max-width="100%">   
                         </a>
 
@@ -184,16 +193,15 @@
 
                             <div class="col-md-6">
 
-                                
                                 <div class="form-group">
-                                    <label for="exampleFormControlInput1">Full Name</label>
-                                    <input type="text" class="form-control" id="exampleFormControlSelect2" placeholder="First Last">
+                                    <label for="fullName">Full Name</label>
+                                    <input type="text" class="form-control" id="fullName" placeholder="First Last">
         
                                 </div>
                                     
                                 <div class="form-group">
-                                        <label for="exampleFormControlInput1">Email address</label>
-                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                        <label for="emailAddress">Email address</label>
+                                        <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com">
                                 </div>
 
                             </div>
@@ -206,15 +214,27 @@
 
 
                                 <div class="form-group">
-                                        <label for="exampleFormControlTextarea1">Questions or Comments</label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                        <label for="q-comments">Questions or Comments</label>
+                                        <textarea class="form-control" id="q-comments" rows="3"></textarea>
                                 </div>
 
 
                             </div>
                         </div>
 
-                        <button type="submit" class="btn btn-primary submit-btn">Submit</button>
+                        <button class="btn btn-primary submit-btn btn-success btn-send" id="myBtn">Submit</button>
+
+                        <!-- The Modal Div -->
+                        <div id="modal" class="modal">
+
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p>Your contact info has been saved!</p>
+                            </div>
+
+
+                        </div>
 
                     </form>
 
@@ -224,7 +244,15 @@
 
         </div>
 
+        <div class="row">
+            <a id="upBtn">
+                <i class="fas fa-arrow-circle-up fa-2x" title="Back to Top!"></i>
+            </a>
+        </div>
+
         <a class="credit" href="http://www.freepik.com">Background by starline / Freepik</a>
+
+
     </section>
 
     <footer class="footer card-footer text-center border mt-2 navblack text-white sticky-footer">
@@ -237,11 +265,9 @@
 
     </footer>
 
-    <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
     <script src="assets/javascript/app.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   
 </body>
 
 </html>
