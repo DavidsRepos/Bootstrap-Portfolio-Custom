@@ -23,7 +23,7 @@ html {
 }
 
 .submit-btn {
-  /* background-color: #BC2D19; */
+  background-color: #02A6BF;
   border-color: #FCF2CB; 
 }
 
@@ -45,7 +45,7 @@ html {
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* background-color: #a3303a; */
+  background-color: #02A6BF;
   color: #fff;
   width: 97%;
   text-align: center;
