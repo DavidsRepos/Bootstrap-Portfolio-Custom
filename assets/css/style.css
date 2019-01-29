@@ -9,6 +9,10 @@ html {
   border-right: 1px solid #ccc;
 }
 
+.radius {
+  border-radius: 5px;
+}
+
 
 .bg-portfolio {
   background-color: #E3CB9B;
@@ -39,7 +43,7 @@ html {
   transform: translate(-50%, -50%);
   background-color: #a3303a;
   color: #fff;
-  width: 100%;
+  width: 97%;
   text-align: center;
   padding: 10px 0 10px 0;
   height: 110px;
@@ -63,10 +67,28 @@ html {
   /* width: 20px; */
 }
 
+.icon2 {
+  height: 70px;
+  position: absolute;
+  top: 365px;
+  left: 475px;
+  z-index: 1;
+  /* width: 20px; */
+
+}
+
 .icontextshow {
   position: absolute;
   text-align: center;
   top: 420px;
+  left: 35px;
+  color: #fff;
+}
+
+.icontextshow2 {
+  position: absolute;
+  text-align: center;
+  top: 435px;
   left: 35px;
   color: #fff;
 }
@@ -79,10 +101,26 @@ html {
   z-index: 1;
 }
 
+.iconbottomrow {
+  height: 70px;
+  position: absolute;
+  top: 365px;
+  left: 40px;
+  z-index: 1;
+}
+
 .icontextshowrepo {
   position: absolute;
   text-align: center;
   top: 420px;
+  left: 485px;
+  color: #fff;
+}
+
+.icontextshowrepo2 {
+  position: absolute;
+  text-align: center;
+  top: 435px;
   left: 485px;
   color: #fff;
 }
