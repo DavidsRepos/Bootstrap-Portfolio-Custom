@@ -9,6 +9,10 @@ html {
   border-right: 1px solid #ccc;
 }
 
+.mainpagelogo {
+  width: 250px;
+}
+
 .radius {
   border-radius: 5px;
 }
@@ -19,7 +23,7 @@ html {
 }
 
 .submit-btn {
-  background-color: #BC2D19;
+  /* background-color: #BC2D19; */
   border-color: #FCF2CB; 
 }
 
@@ -41,7 +45,7 @@ html {
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #a3303a;
+  /* background-color: #a3303a; */
   color: #fff;
   width: 97%;
   text-align: center;
@@ -64,7 +68,15 @@ html {
   top: 350px;
   left: 475px;
   z-index: 1;
-  /* width: 20px; */
+  transition: 0.3s;
+  opacity: 5;
+}
+
+.icon:hover,
+.icon2:hover,
+.iconguitar:hover,
+.iconbottomrow:hover {
+  opacity: 0.5;
 }
 
 .icon2 {
@@ -73,8 +85,8 @@ html {
   top: 365px;
   left: 475px;
   z-index: 1;
-  /* width: 20px; */
-
+  transition: 0.3s;
+  opacity: 5;
 }
 
 .icontextshow {
@@ -99,6 +111,8 @@ html {
   top: 350px;
   left: 40px;
   z-index: 1;
+  transition: 0.3s;
+  opacity: 5;
 }
 
 .iconbottomrow {
@@ -107,6 +121,8 @@ html {
   top: 365px;
   left: 40px;
   z-index: 1;
+  transition: 0.3s;
+  opacity: 5;
 }
 
 .icontextshowrepo {
