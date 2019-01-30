@@ -300,9 +300,12 @@ Up Button for Mobile scrolling
   visibility: visible;
 }
 
-/* Modal Content */
+/* ##################
+    Modal Content 
+###################*/
+
 .modal-content {
-  background-color: #a3303a;
+  background-color: #02A6BF;
   color: #fff;
   top: 400px;
   margin: auto;
@@ -339,12 +342,6 @@ Up Button for Mobile scrolling
 
 @media screen and (max-width: 768px) {
 
-  /* The body's bg color will be #333 */
-  /* body {
-    background-color: #333;
-  } */
-
-  /* The wrapper's width will be 600px */
   .col-adjust {
     width:1300px;
   }
@@ -357,12 +354,6 @@ Up Button for Mobile scrolling
 
     height: 1300px;
   }
-  
-
-  /* .image-mobile {
-    margin: 10px 0 10px 0;
-    width: 100%;
-  } */
 
   .border-mobile,
   .no-border {
