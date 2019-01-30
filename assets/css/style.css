@@ -17,6 +17,29 @@ html {
   border-radius: 5px;
 }
 
+.nav-right {
+  text-shadow: #888 0.25em 0.25em 0.25em;
+}
+
+.port-bar {
+  text-shadow: #444 0.25em 0.25em 0.25em;
+}
+
+.resumetext {
+  color: #444;
+  text-shadow: #444 0.05em 0.05em 0.05em;
+  position: relative;
+  top: 50px;
+}
+
+.linkedintext {
+  color: #444;
+  text-shadow: #444 0.05em 0.05em 0.05em;
+  position: relative;
+  top: 20px;
+  margin-right: 8px;
+  float: right;
+}
 
 .bg-portfolio {
   background-color: #E3CB9B;
@@ -69,15 +92,21 @@ html {
   left: 475px;
   z-index: 1;
   transition: 0.3s;
-  opacity: 5;
+  opacity: 0.7;
 }
 
 .icon:hover,
 .icon2:hover,
 .iconguitar:hover,
-.iconbottomrow:hover {
-  opacity: 0.5;
+.iconbottomrow:hover,
+.linkedintext:hover,
+.resumetext:hover,
+.cvicon:hover,
+.linkedinicon:hover {
+  opacity: 5;
+  filter:brightness(150%);
 }
+
 
 .icon2 {
   height: 70px;
@@ -86,7 +115,7 @@ html {
   left: 475px;
   z-index: 1;
   transition: 0.3s;
-  opacity: 5;
+  opacity: 0.7;
 }
 
 .icontextshow {
@@ -112,7 +141,7 @@ html {
   left: 40px;
   z-index: 1;
   transition: 0.3s;
-  opacity: 5;
+  opacity: 0.7;
 }
 
 .iconbottomrow {
@@ -122,7 +151,7 @@ html {
   left: 40px;
   z-index: 1;
   transition: 0.3s;
-  opacity: 5;
+  opacity: 0.7;
 }
 
 .icontextshowrepo {
@@ -139,6 +168,47 @@ html {
   top: 435px;
   left: 485px;
   color: #fff;
+}
+
+.cvicon {
+  height: 70px;
+  width: 70px;
+  float: left;
+  position: relative;
+  top: 50px;
+}
+
+.linkedinicon {
+  height: 70px;
+  width: 70px;
+  top: 20px;
+  position: relative;
+  float: right;
+}
+
+.linkedintext h4 {
+  text-align: right;
+  float: right;
+  top: 60px;
+  position: relative;
+}
+
+.cvicon h4 {
+  text-align: right;
+  float: left;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .righteous {
@@ -276,8 +346,18 @@ Up Button for Mobile scrolling
 
   /* The wrapper's width will be 600px */
   .col-adjust {
-    width: 600px;
+    width:1300px;
   }
+
+  .mobile-sizeabout {
+    height: 1200px;
+  }
+
+  .jumbotron {
+
+    height: 1300px;
+  }
+  
 
   /* .image-mobile {
     margin: 10px 0 10px 0;
