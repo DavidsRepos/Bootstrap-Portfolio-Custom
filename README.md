@@ -16,6 +16,10 @@ FirebaseJS
 
 MomentJS
 
+## Extras:
+
+Email me using my resume email address or fill out the contact form and I'll be notifed and will respond as soon as possible.
+
 
 
 
