@@ -60,7 +60,7 @@ html {
 }
 
 .htmlimage {
-  height: 555px;
+  height: 490px;
 }
 
 .portfolioimage {
@@ -337,9 +337,89 @@ Up Button for Mobile scrolling
 
 /*
   These rules take effect when the browser's width
+  is either 980px or less.
+*/
+@media screen and (max-width: 980px) {
+
+  .col-adjust {
+    width:1300px;
+  }
+
+  .mobile-sizeabout {
+    height: 1200px;
+  }
+
+  .jumbotron {
+
+    height: 1300px;
+  }
+
+  .border-mobile,
+  .no-border {
+    border-right: 0;
+  }
+
+  .linkedinicon {
+    float: left;
+    top: 100px;
+    left: -70px;
+  }
+
+  .linkedintext {
+    
+    position: relative;
+    top: 100px;
+    float: left;
+    left: -69px;
+  }
+
+  .iconguitar {
+    height: 70px;
+    position: absolute;
+    top: 325px;
+    left: 10px;
+    z-index: 1;
+    transition: 0.3s;
+    opacity: 0.7;
+  }
+
+  .icontextshow,
+  .icontextshowrepo,
+  .icontextshow2,
+  .icontextshowrepo2 {
+    display: none;
+  }
+
+  .icon {
+    height: 70px;
+    position: absolute;
+    top: 325px;
+    left: 275px;
+    z-index: 1;
+    transition: 0.3s;
+    opacity: 0.7;
+  }
+
+  .icon2 {
+    height: 70px;
+    position: absolute;
+    top: 345px;
+    left: 275px;
+  }
+
+  .iconbottomrow {
+    height: 70px;
+    position: absolute;
+    top: 345px;
+    left: 20px;
+  }
+  
+}
+
+/*
+  These rules take effect when the browser's width
   is either 768px or less.
 */
-
 @media screen and (max-width: 768px) {
 
   .col-adjust {
@@ -360,4 +440,152 @@ Up Button for Mobile scrolling
     border-right: 0;
   }
 
+  .linkedinicon {
+    float: left;
+    top: 100px;
+    left: -70px;
+  }
+
+  .linkedintext {
+    
+    position: relative;
+    top: 100px;
+    float: left;
+    left: -69px;
+  }
+
+  .iconguitar {
+    height: 70px;
+    position: absolute;
+    top: 325px;
+    left: 10px;
+    z-index: 1;
+    transition: 0.3s;
+    opacity: 0.7;
+  }
+
+  .icontextshow,
+  .icontextshowrepo,
+  .icontextshow2,
+  .icontextshowrepo2 {
+    display: none;
+  }
+
+  .icon {
+    height: 70px;
+    position: absolute;
+    top: 325px;
+    left: 275px;
+    z-index: 1;
+    transition: 0.3s;
+    opacity: 0.7;
+  }
+
+  .icon2 {
+    height: 70px;
+    position: absolute;
+    top: 345px;
+    left: 275px;
+  }
+
+  .iconbottomrow {
+    height: 70px;
+    position: absolute;
+    top: 345px;
+    left: 20px;
+  }
+  
 }
+
+/*
+  These rules take effect when the browser's width
+  is either 640px or less.
+*/
+
+@media screen and (max-width: 640px){
+
+  .col-adjust {
+    width:1300px;
+  }
+
+  .mobile-sizeabout {
+    height: 1200px;
+  }
+
+  .jumbotron {
+
+    height: 1300px;
+  }
+
+  .border-mobile,
+  .no-border {
+    border-right: 0;
+  }
+
+  .linkedinicon {
+    float: right;
+    top: -15px;
+    left: -70px;
+  }
+
+  .cvicon {
+    top: 10px;
+  }
+
+  .linkedintext {
+    position: relative;
+    top: 25px;
+    float: right;
+    left: -69px;
+    font-size: 15px;
+  }
+  
+  .resumetext {
+    font-size: 15px;
+  }
+  .iconguitar {
+    height: 70px;
+    position: absolute;
+    top: 320px;
+    left: 40px;
+    z-index: 1;
+    transition: 0.3s;
+    opacity: 0.7;
+  }
+
+  .icontextshow,
+  .icontextshowrepo,
+  .icontextshow2,
+  .icontextshowrepo2 {
+    display: none;
+  }
+
+  .icon {
+    height: 70px;
+    position: absolute;
+    top: 320px;
+    left: 420px;
+    z-index: 1;
+    transition: 0.3s;
+    opacity: 0.7;
+  }
+
+  .icon2 {
+    height: 70px;
+    position: absolute;
+    top: 340px;
+    left: 420px;
+  }
+
+  .iconbottomrow {
+    height: 70px;
+    position: absolute;
+    top: 340px;
+    left: 40px;
+
+  }
+
+
+
+}
+
