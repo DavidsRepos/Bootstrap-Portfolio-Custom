@@ -1,7 +1,9 @@
 /*
   Custom CSS Styles
 */
-
+a {
+  text-decoration: none;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -30,6 +32,7 @@ html {
   text-shadow: #444 0.05em 0.05em 0.05em;
   position: relative;
   top: 50px;
+  cursor: pointer;
 }
 
 .linkedintext {
@@ -88,7 +91,7 @@ html {
 .icon {
   height: 70px;
   position: absolute;
-  top: 350px;
+  top: 305px;
   left: 475px;
   z-index: 1;
   transition: 0.3s;
@@ -111,7 +114,7 @@ html {
 .icon2 {
   height: 70px;
   position: absolute;
-  top: 365px;
+  top: 320px;
   left: 475px;
   z-index: 1;
   transition: 0.3s;
@@ -121,7 +124,7 @@ html {
 .icontextshow {
   position: absolute;
   text-align: center;
-  top: 420px;
+  top: 375px;
   left: 35px;
   color: #fff;
 }
@@ -129,7 +132,7 @@ html {
 .icontextshow2 {
   position: absolute;
   text-align: center;
-  top: 435px;
+  top: 390px;
   left: 35px;
   color: #fff;
 }
@@ -137,7 +140,7 @@ html {
 .iconguitar {
   height: 70px;
   position: absolute;
-  top: 350px;
+  top: 310px;
   left: 40px;
   z-index: 1;
   transition: 0.3s;
@@ -147,7 +150,7 @@ html {
 .iconbottomrow {
   height: 70px;
   position: absolute;
-  top: 365px;
+  top: 325px;
   left: 40px;
   z-index: 1;
   transition: 0.3s;
@@ -157,7 +160,7 @@ html {
 .icontextshowrepo {
   position: absolute;
   text-align: center;
-  top: 420px;
+  top: 375px;
   left: 485px;
   color: #fff;
 }
@@ -165,7 +168,7 @@ html {
 .icontextshowrepo2 {
   position: absolute;
   text-align: center;
-  top: 435px;
+  top: 390px;
   left: 485px;
   color: #fff;
 }
