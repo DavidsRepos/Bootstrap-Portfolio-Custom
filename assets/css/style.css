@@ -91,7 +91,17 @@ html {
 .icon {
   height: 70px;
   position: absolute;
-  top: 305px;
+  top: 320px;
+  left: 475px;
+  z-index: 1;
+  transition: 0.3s;
+  opacity: 0.7;
+}
+
+.iconhang {
+  height: 70px;
+  position: absolute;
+  top: 300px;
   left: 475px;
   z-index: 1;
   transition: 0.3s;
@@ -124,7 +134,7 @@ html {
 .icontextshow {
   position: absolute;
   text-align: center;
-  top: 375px;
+  top: 390px;
   left: 35px;
   color: #fff;
 }
@@ -137,10 +147,28 @@ html {
   color: #fff;
 }
 
+.icontextshow3 {
+  position: absolute;
+  text-align: center;
+  top: 375px;
+  left: 35px;
+  color: #fff;
+}
+
 .iconguitar {
   height: 70px;
   position: absolute;
-  top: 310px;
+  top: 325px;
+  left: 40px;
+  z-index: 1;
+  transition: 0.3s;
+  opacity: 0.7;
+}
+
+.iconguitar2 {
+  height: 70px;
+  position: absolute;
+  top: 300px;
   left: 40px;
   z-index: 1;
   transition: 0.3s;
@@ -160,7 +188,7 @@ html {
 .icontextshowrepo {
   position: absolute;
   text-align: center;
-  top: 375px;
+  top: 390px;
   left: 485px;
   color: #fff;
 }
@@ -169,6 +197,14 @@ html {
   position: absolute;
   text-align: center;
   top: 390px;
+  left: 485px;
+  color: #fff;
+}
+
+.icontextshowrepo3 {
+  position: absolute;
+  text-align: center;
+  top: 375px;
   left: 485px;
   color: #fff;
 }
