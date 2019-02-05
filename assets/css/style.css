@@ -80,6 +80,22 @@ html {
   font-family: 'Righteous', cursive;
 }
 
+.portfolioimage2 {
+  position: absolute;
+  top: 71%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #02A6BF;
+  color: #fff;
+  width: 97%;
+  text-align: center;
+  padding: 10px 0 10px 0;
+  height: 110px;
+  font-family: 'Righteous', cursive;
+}
+
+
+
 #DavidButton {
   margin: auto;
 }
