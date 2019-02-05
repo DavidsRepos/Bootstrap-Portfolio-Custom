@@ -7,7 +7,7 @@ A project portfolio targeting employers and project managers.
 This site aims to demonstrate my projects to date, my resume, LinkedIn profile, along with some details about who I am and my technology history
 
 ## Deployed Project:
-https://davidsrepos.github.io/Bootstrap-Portfolio-Custom/
+https://davidsrepos.github.io/Portfolio
 
 ## Technologies:
 
