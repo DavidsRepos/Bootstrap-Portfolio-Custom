@@ -431,7 +431,7 @@ Up Button for Mobile scrolling
   .iconguitar {
     height: 70px;
     position: absolute;
-    top: 325px;
+    top: 345px;
     left: 10px;
     z-index: 1;
     transition: 0.3s;
@@ -448,7 +448,7 @@ Up Button for Mobile scrolling
   .icon {
     height: 70px;
     position: absolute;
-    top: 325px;
+    top: 345px;
     left: 275px;
     z-index: 1;
     transition: 0.3s;
@@ -644,3 +644,96 @@ Up Button for Mobile scrolling
 
 }
 
+@media screen and (max-width: 375px){
+
+  .col-adjust {
+    width:1300px;
+  }
+
+  .mobile-sizeabout {
+    height: 1300px;
+  }
+
+  .jumbotron {
+
+    height: 1500px;
+  }
+
+  .border-mobile,
+  .no-border {
+    border-right: 0;
+  }
+
+  .linkedinicon {
+    display: none;
+    float: right;
+    top: -15px;
+    left: -70px;
+  }
+
+  .cvicon {
+    display: none;
+    top: 10px;
+  }
+
+  .linkedintext {
+
+    position: relative;
+    top: -5px;
+    float: left;
+    left: 15px;
+    font-size: 15px;
+  }
+  
+  .resumetext {
+    top: -15px;
+    left: 10px;
+    font-size: 15px;
+  }
+  .iconguitar {
+    height: 70px;
+    position: absolute;
+    top: 320px;
+    left: 40px;
+    z-index: 1;
+    transition: 0.3s;
+    opacity: 0.7;
+  }
+
+  .icontextshow,
+  .icontextshowrepo,
+  .icontextshow2,
+  .icontextshowrepo2 {
+    display: none;
+  }
+
+  .icon {
+    height: 70px;
+    position: absolute;
+    top: 320px;
+    left: 220px;
+    z-index: 1;
+    transition: 0.3s;
+    opacity: 0.7;
+  }
+
+  .icon2 {
+    height: 70px;
+    position: absolute;
+    top: 340px;
+    left: 220px;
+  }
+
+  .iconbottomrow {
+    height: 70px;
+    position: absolute;
+    top: 340px;
+    left: 40px;
+
+  }
+
+  .navbar-toggler {
+    display: none;
+  }
+
+}
