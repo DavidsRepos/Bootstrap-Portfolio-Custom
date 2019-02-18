@@ -1,6 +1,10 @@
-/*
+/*******************
   Custom CSS Styles
-*/
+*******************/
+
+/***************
+Images and Icons
+****************/
 a {
   text-decoration: none;
 }
@@ -327,9 +331,9 @@ html {
   vertical-align: middle;
 }
 
-/* 
+/**************************
 Up Button for Mobile scrolling 
-*/
+**************************/
 
 #upBtn {
   display: inline-block;
@@ -391,7 +395,9 @@ Up Button for Mobile scrolling
   text-align: center;
 }
 
-/* The Close Button */
+/***************
+The Close Button
+ ***************/
 .close {
   color: #aaaaaa;
   float: right;
@@ -407,10 +413,10 @@ Up Button for Mobile scrolling
 }
 
 
-/*
+/************************************************
   These rules take effect when the browser's width
   is either 980px or less.
-*/
+************************************************/
 @media screen and (max-width: 980px) {
 
   .col-adjust {
@@ -488,10 +494,10 @@ Up Button for Mobile scrolling
   
 }
 
-/*
+/***********************************************
   These rules take effect when the browser's width
   is either 768px or less.
-*/
+************************************************/
 @media screen and (max-width: 768px) {
 
   .col-adjust {
@@ -569,10 +575,10 @@ Up Button for Mobile scrolling
   
 }
 
-/*
+/*************************************************
   These rules take effect when the browser's width
   is either 640px or less.
-*/
+*************************************************/
 
 @media screen and (max-width: 640px){
 
@@ -657,10 +663,12 @@ Up Button for Mobile scrolling
 
   }
 
-
-
 }
 
+/*************************************************
+  These rules take effect when the browser's width
+  is either 375px or less.
+*************************************************/
 @media screen and (max-width: 375px){
 
   .col-adjust {
