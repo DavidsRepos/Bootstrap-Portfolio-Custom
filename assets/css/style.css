@@ -19,6 +19,11 @@ html {
   border-radius: 5px;
 }
 
+.relax {
+  opacity: 0.5;
+  filter: alpha(opacity-50);
+}
+
 .nav-right {
   text-shadow: #888 0.25em 0.25em 0.25em;
 }
