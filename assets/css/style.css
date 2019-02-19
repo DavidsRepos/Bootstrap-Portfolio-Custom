@@ -152,7 +152,9 @@ html {
 .linkedintext:hover,
 .resumetext:hover,
 .cvicon:hover,
-.linkedinicon:hover {
+.linkedinicon:hover,
+.icon4throw:hover,
+.icon2_4throw:hover {
   opacity: 5;
   filter:brightness(150%);
 }
@@ -162,6 +164,16 @@ html {
   height: 70px;
   position: absolute;
   top: 320px;
+  left: 475px;
+  z-index: 1;
+  transition: 0.3s;
+  opacity: 0.7;
+}
+
+.icon2_4throw {
+  height: 70px;
+  position: absolute;
+  top: 305px;
   left: 475px;
   z-index: 1;
   transition: 0.3s;
@@ -180,6 +192,14 @@ html {
   position: absolute;
   text-align: center;
   top: 390px;
+  left: 35px;
+  color: #fff;
+}
+
+.icontextshow2_4th {
+  position: absolute;
+  text-align: center;
+  top: 370px;
   left: 35px;
   color: #fff;
 }
@@ -222,6 +242,16 @@ html {
   opacity: 0.7;
 }
 
+.icon4throw {
+  height: 70px;
+  position: absolute;
+  top: 305px;
+  left: 40px;
+  z-index: 1;
+  transition: 0.3s;
+  opacity: 0.7;
+}
+
 .icontextshowrepo {
   position: absolute;
   text-align: center;
@@ -234,6 +264,14 @@ html {
   position: absolute;
   text-align: center;
   top: 390px;
+  left: 485px;
+  color: #fff;
+}
+
+.icontextshowrepo2_4th {
+  position: absolute;
+  text-align: center;
+  top: 370px;
   left: 485px;
   color: #fff;
 }
@@ -464,7 +502,15 @@ The Close Button
   .icontextshow,
   .icontextshowrepo,
   .icontextshow2,
-  .icontextshowrepo2 {
+  .icontextshowrepo2,
+  .icontextshowrepo2_4th {
+    position: absolute;
+    text-align: center;
+    top: 370px;
+    left: 485px;
+    color: #fff;
+  }
+  .icontextshow2_4th {
     display: none;
   }
 
@@ -485,7 +531,21 @@ The Close Button
     left: 275px;
   }
 
+  .icon2_4throw {
+    height: 70px;
+    position: absolute;
+    top: 345px;
+    left: 275px;
+  }
+
   .iconbottomrow {
+    height: 70px;
+    position: absolute;
+    top: 345px;
+    left: 20px;
+  }
+
+  .icon4throw {
     height: 70px;
     position: absolute;
     top: 345px;
@@ -545,7 +605,9 @@ The Close Button
   .icontextshow,
   .icontextshowrepo,
   .icontextshow2,
-  .icontextshowrepo2 {
+  .icontextshow2_4th,
+  .icontextshowrepo2,
+  .icontextshowrepo2_4th {
     display: none;
   }
 
@@ -566,7 +628,21 @@ The Close Button
     left: 275px;
   }
 
+  .icon2_4throw {
+    height: 70px;
+    position: absolute;
+    top: 345px;
+    left: 275px;
+  }
+
   .iconbottomrow {
+    height: 70px;
+    position: absolute;
+    top: 345px;
+    left: 20px;
+  }
+
+  .icon4throw {
     height: 70px;
     position: absolute;
     top: 345px;
@@ -634,7 +710,18 @@ The Close Button
   .icontextshow,
   .icontextshowrepo,
   .icontextshow2,
+  .icontextshow2_4th {
+    position: absolute;
+    text-align: center;
+    top: 370px;
+    left: 35px;
+    color: #fff;
+  }
   .icontextshowrepo2 {
+    display: none;
+  }
+
+  .icontextshowrepo2_4th {
     display: none;
   }
 
@@ -655,7 +742,22 @@ The Close Button
     left: 420px;
   }
 
+  .icon2_4throw {
+    height: 70px;
+    position: absolute;
+    top: 340px;
+    left: 420px;
+  }
+
   .iconbottomrow {
+    height: 70px;
+    position: absolute;
+    top: 340px;
+    left: 40px;
+
+  }
+
+  .icon4throw {
     height: 70px;
     position: absolute;
     top: 340px;
@@ -728,7 +830,8 @@ The Close Button
   .icontextshow,
   .icontextshowrepo,
   .icontextshow2,
-  .icontextshowrepo2 {
+  .icontextshowrepo2,
+  .icontextshowrepo2_4th {
     display: none;
   }
 
@@ -743,6 +846,13 @@ The Close Button
   }
 
   .icon2 {
+    height: 70px;
+    position: absolute;
+    top: 340px;
+    left: 220px;
+  }
+
+  .icon2_4throw {
     height: 70px;
     position: absolute;
     top: 340px;
