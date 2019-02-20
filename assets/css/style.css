@@ -40,7 +40,8 @@ html {
   color: #444;
   text-shadow: #444 0.05em 0.05em 0.05em;
   position: relative;
-  top: 50px;
+  top: -20px;
+  left: 50px;
   cursor: pointer;
 }
 
@@ -48,10 +49,21 @@ html {
   color: #444;
   text-shadow: #444 0.05em 0.05em 0.05em;
   position: relative;
-  top: 20px;
-  margin-right: 8px;
-  float: right;
+  top: -40px;
+  left: 55px;
+  /* float: right; */
 }
+
+.GHtext {
+  color: #444;
+  text-shadow: #444 0.05em 0.05em 0.05em;
+  position: relative;
+  top: -50px;
+  left: 55px;
+  margin-right: 8px;
+  /* float: right; */
+}
+
 
 .bg-portfolio {
   background-color: #E3CB9B;
@@ -68,7 +80,7 @@ html {
 
 .jumbotron {
 
-  height: 800px;
+  height: 850px;
 }
 
 .htmlimage {
@@ -285,19 +297,28 @@ html {
 }
 
 .cvicon {
-  height: 70px;
-  width: 70px;
-  float: left;
+  height: 40px;
+  width: 40px;
   position: relative;
-  top: 50px;
+  top: 5px;
+  /* float: left; */
+}
+
+.GHicon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  top: -25px;
+  left: 1px;
+  /* float: left; */
 }
 
 .linkedinicon {
-  height: 70px;
-  width: 70px;
-  top: 20px;
+  height: 40px;
+  width: 40px;
+  top: -15px;
   position: relative;
-  float: right;
+  /* float: left; */
 }
 
 .linkedintext h4 {
