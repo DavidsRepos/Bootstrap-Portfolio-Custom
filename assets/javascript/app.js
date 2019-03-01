@@ -24,7 +24,7 @@ var config = {
        if ($(window).scrollTop() > 600) {
         btnb.addClass('show');
        } else {
-        btn.removeClass('show');
+        btnb.removeClass('show');
        }
    });
 
