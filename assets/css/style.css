@@ -790,7 +790,7 @@ The Close Button
 
 /*************************************************
   These rules take effect when the browser's width
-  is either 640px or less.
+  is either 420px or less.
 *************************************************/
 
 @media screen and (max-width: 420px){
@@ -830,10 +830,20 @@ The Close Button
     left: -69px;
     font-size: 15px;
   }
-  
+
+  .cvicon,
+  .linkedinicon,
+  .GHicon {
+    display: none;
+    top: 10px;
+  }
+
   .resumetext {
     font-size: 15px;
+    left: 5px;
+    top: 0px;
   }
+
   .iconguitar {
     height: 70px;
     position: absolute;
@@ -842,6 +852,22 @@ The Close Button
     z-index: 1;
     transition: 0.3s;
     opacity: 0.7;
+  }
+
+  .GHtext {
+    position: relative;
+    top: -3px;
+    float: left;
+    left: -100px;
+    font-size: 15px;
+  }
+
+  .linkedintext {
+    position: relative;
+    top: 25px;
+    float: left;
+    left: 5px;
+    font-size: 15px;
   }
 
   .icontextshow,
