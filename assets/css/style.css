@@ -191,6 +191,16 @@ html {
   opacity: 0.7;
 }
 
+.icon2_5throw {
+  height: 70px;
+  position: absolute;
+  top: 305px;
+  left: 475px;
+  z-index: 1;
+  transition: 0.3s;
+  opacity: 0.7;
+}
+
 .icontextshow {
   position: absolute;
   text-align: center;
@@ -208,6 +218,14 @@ html {
 }
 
 .icontextshow2_4th {
+  position: absolute;
+  text-align: center;
+  top: 370px;
+  left: 35px;
+  color: #fff;
+}
+
+.icontextshow2_5th {
   position: absolute;
   text-align: center;
   top: 370px;
@@ -263,6 +281,16 @@ html {
   opacity: 0.7;
 }
 
+.icon5throw {
+  height: 70px;
+  position: absolute;
+  top: 305px;
+  left: 40px;
+  z-index: 1;
+  transition: 0.3s;
+  opacity: 0.7;
+}
+
 .icontextshowrepo {
   position: absolute;
   text-align: center;
@@ -280,6 +308,14 @@ html {
 }
 
 .icontextshowrepo2_4th {
+  position: absolute;
+  text-align: center;
+  top: 370px;
+  left: 485px;
+  color: #fff;
+}
+
+.icontextshowrepo2_5th {
   position: absolute;
   text-align: center;
   top: 370px;
