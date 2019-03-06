@@ -533,16 +533,25 @@ The Close Button
 
   .linkedinicon {
     float: left;
-    top: 100px;
-    left: -70px;
+    top: 50px;
+    left: 0px;
   }
 
   .linkedintext {
     
     position: relative;
-    top: 100px;
+    top: 55px;
     float: left;
-    left: -69px;
+    left: 5px;
+  }
+
+  .GHtext {
+    top: -45px;
+  }
+
+  .GHicon {
+    left: -175px;
+    top: -15px;
   }
 
   .iconguitar {
@@ -553,6 +562,12 @@ The Close Button
     z-index: 1;
     transition: 0.3s;
     opacity: 0.7;
+  }
+
+  .myIcon {
+    top: 50px;
+    height: 90px;
+    widows: 90px;
   }
 
   .icontextshow,
@@ -625,7 +640,6 @@ The Close Button
   }
 
   .jumbotron {
-
     height: 1300px;
   }
 
@@ -638,15 +652,42 @@ The Close Button
     float: left;
     top: 100px;
     left: -70px;
+    display: none;
   }
 
   .linkedintext {
     
     position: relative;
-    top: 100px;
+    top: 0px;
     float: left;
-    left: -69px;
+    left: 5px;
   }
+
+  .GHtext {
+    top: 30px;
+    float: left;
+    left: -130px;
+  }
+
+  .resumetext {
+    top: 0px;
+    left: 5px;
+  }
+
+  .GHicon {
+    display: none;
+  }
+
+  .cvicon {
+    display: none;
+  }
+
+  .myIcon {
+    top: 50px;
+    width: 70px;
+    height: 70px;
+  }
+  
 
   .iconguitar {
     height: 70px;
@@ -727,6 +768,10 @@ The Close Button
     height: 1300px;
   }
 
+  .myIcon {
+    top: 190px;
+  }
+
   .border-mobile,
   .no-border {
     border-right: 0;
@@ -736,22 +781,36 @@ The Close Button
     float: right;
     top: -15px;
     left: -70px;
+    display: none;
   }
 
   .cvicon {
     top: 10px;
+    display: none;
+  }
+
+  .GHicon {
+    display: none;
   }
 
   .linkedintext {
     position: relative;
     top: 25px;
-    float: right;
-    left: -69px;
+    float: left;
+    left: 5px;
     font-size: 15px;
+  }
+
+  .GHtext {
+    top:  -30px;
+    font-size: 15px;
+    left: -100px; 
   }
   
   .resumetext {
     font-size: 15px;
+    top: 20px;
+    left: 5px;
   }
   .iconguitar {
     height: 70px;
@@ -955,12 +1014,17 @@ The Close Button
     left: 40px;
 
   }
+  .myIcon {
+    top: 0px;
+  }
 
   .icon4throw {
     height: 70px;
     position: absolute;
     top: 340px;
     left: 40px;
+
+  
 
   }
 
@@ -1053,6 +1117,10 @@ The Close Button
     z-index: 1;
     transition: 0.3s;
     opacity: 0.7;
+  }
+
+  .myIcon {
+    display: none;
   }
 
   .icon2 {
