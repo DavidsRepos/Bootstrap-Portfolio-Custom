@@ -89,8 +89,8 @@ html {
 }
 
 .jumbotron {
-
-  height: 850px;
+  height: 900px;
+  padding-bottom: 12px;
 }
 
 .htmlimage {
@@ -541,7 +541,6 @@ The Close Button
   }
 
   .jumbotron {
-
     height: 1300px;
   }
 
@@ -783,7 +782,6 @@ The Close Button
   }
 
   .jumbotron {
-
     height: 1300px;
   }
 
@@ -929,7 +927,6 @@ The Close Button
   }
 
   .jumbotron {
-
     height: 1450px;
   }
 
@@ -1075,7 +1072,6 @@ The Close Button
   }
 
   .jumbotron {
-
     height: 1500px;
   }
 
