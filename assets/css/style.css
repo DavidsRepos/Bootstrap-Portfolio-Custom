@@ -195,7 +195,7 @@ html {
 .icon2_4throw {
   height: 70px;
   position: absolute;
-  top: 305px;
+  top: 320px;
   left: 475px;
   z-index: 1;
   transition: 0.3s;
@@ -231,7 +231,7 @@ html {
 .icontextshow2_4th {
   position: absolute;
   text-align: center;
-  top: 370px;
+  top: 390px;
   left: 35px;
   color: #fff;
 }
@@ -285,7 +285,7 @@ html {
 .icon4throw {
   height: 70px;
   position: absolute;
-  top: 305px;
+  top: 320px;
   left: 40px;
   z-index: 1;
   transition: 0.3s;
@@ -321,7 +321,7 @@ html {
 .icontextshowrepo2_4th {
   position: absolute;
   text-align: center;
-  top: 370px;
+  top: 390px;
   left: 485px;
   color: #fff;
 }
