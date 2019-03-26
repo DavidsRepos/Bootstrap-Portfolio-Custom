@@ -64,6 +64,17 @@ html {
   /* float: right; */
 }
 
+.emailtext,
+.emaillink {
+  color: #444;
+  text-shadow: #444 0.05em 0.05em 0.05em;
+  position: relative;
+  top: -60px;
+  left: 55px;
+  margin-right: 8px;
+  /* float: right; */
+}
+
 .bg-portfolio {
   background-color: #E3CB9B;
 }
@@ -353,6 +364,14 @@ html {
   width: 40px;
   top: -10px;
   position: relative;
+  /* float: left; */
+}
+
+.mailicon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  top: -30px;
   /* float: left; */
 }
 
@@ -793,6 +812,10 @@ The Close Button
     display: none;
   }
 
+  .mailicon {
+    display: none;
+  }
+
   .linkedintext {
     position: relative;
     top: 25px;
@@ -802,7 +825,7 @@ The Close Button
   }
 
   .GHtext {
-    top:  -30px;
+    top:  -36px;
     font-size: 15px;
     left: -100px; 
   }
@@ -812,6 +835,13 @@ The Close Button
     top: 20px;
     left: 5px;
   }
+
+  .emaillink {
+    font-size: 15px;
+    top: 30px;
+    left: 5px;
+  }
+
   .iconguitar {
     height: 70px;
     position: absolute;
@@ -1069,7 +1099,6 @@ The Close Button
   }
 
   .linkedintext {
-
     position: relative;
     top: -20px;
     float: left;
@@ -1077,8 +1106,9 @@ The Close Button
     font-size: 15px;
   }
 
-  .GHtext {
 
+
+  .GHtext {
     position: relative;
     top: 5px;
     float: left;
@@ -1091,6 +1121,14 @@ The Close Button
     left: 10px;
     font-size: 15px;
   }
+
+  .emaillink {
+    top: 5px;
+    left: 10px;
+    font-size: 15px;
+    margin-bottom: 12px;
+  }
+
   .iconguitar {
     height: 70px;
     position: absolute;
