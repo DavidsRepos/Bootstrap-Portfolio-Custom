@@ -205,7 +205,7 @@ html {
 .icon2_5throw {
   height: 70px;
   position: absolute;
-  top: 320px;
+  top: 300px;
   left: 475px;
   z-index: 1;
   transition: 0.3s;
@@ -249,7 +249,7 @@ html {
 .icontextshow2_5th {
   position: absolute;
   text-align: center;
-  top: 390px;
+  top: 370px;
   left: 35px;
   color: #fff;
 }
@@ -312,7 +312,7 @@ html {
 .icon5throw {
   height: 70px;
   position: absolute;
-  top: 320px;
+  top: 300px;
   left: 40px;
   z-index: 1;
   transition: 0.3s;
@@ -355,7 +355,7 @@ html {
 .icontextshowrepo2_5th {
   position: absolute;
   text-align: center;
-  top: 390px;
+  top: 370px;
   left: 485px;
   color: #fff;
 }
